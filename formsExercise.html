@@ -1,0 +1,98 @@
+<!-- Forms Exercise -->
+<!-- use Text input -->
+<!-- password input with length check -->
+<!-- email input -->
+<!-- radio buttons -->
+<!-- Select tag -->
+<!-- Checkbox input -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+<h1>Register</h1>
+<p> </p>
+<form>
+	<!-- text input First and Last names -->
+	<div>
+		<label for="givenName">First Name: </label>
+		<input type="text" name="givenName" id="givenName" required placeholder="Given Name">
+		<label for="surname">Last Name: </label>
+		<input type="text" name="surname" id="surname" required placeholder="Surname">
+	</div>
+	<p></p>
+	<!-- Radio buttons Gender -->
+	<div>
+		<label for="male">Male </label>
+		<input type="radio" name="gender" id="male" value="MALE">
+		<label for="female">Female </label>
+		<input type="radio" name="gender" id="female" value="FEMALE">
+		<label for="other">Other </label>
+		<input type="radio" name="gender" id="other" value="OTHER">
+	</div>
+	<p></p>
+	<!-- Email and Password -->
+	<div>
+		<label for="email">Email: </label>
+		<input type="email" name="email" id="email" placeholder="user@org" required>
+		<label for="password">Password: </label>
+		<input type="password" name="password" id="password" required pattern=".{5,10}" title="Must be between 5 and 10 characters!" size="10">
+	</div>
+	<p></p>
+	<!-- Birthday Selection -->
+	<div>
+		<label>
+		Birthday: 
+			<select name="Month">
+				<option label="Month"></option>
+				<option value="january">January</option>
+				<option value="february">February</option>
+				<option value="march">March</option>
+				<option value="april">April</option>
+				<option value="may">May</option>
+				<option value="june">June</option>
+				<option value="july">july</option>
+				<option value="august">August</option>
+				<option value="september">September</option>
+				<option value="october">October</option>
+				<option value="november">November</option>
+				<option value="december">December</option>
+			</select>
+			<select name="Day">
+				<option label="Day"></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+			</select>
+			<select name="Year">
+				<option label="Year"></option>
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+				<option value="1994">1994</option>
+				<option value="1995">1995</option>
+			</select>
+		</label>
+	</div>
+	<p></p>
+	<div>
+		<label for="agreement">I agree to the terms and conditions</label>
+		<input type="Checkbox" name="termCondition" id="agreement" value="agree">
+	</div>
+	<div>
+	<p></p>
+		<button type="submit">Submit</button>
+	</div>
+</form>
+</body>
+</html>
