@@ -1,0 +1,4 @@
+# Files to ignore on merge
+
+# Packages
+*.zip

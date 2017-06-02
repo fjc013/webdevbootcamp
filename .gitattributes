@@ -1,0 +1,14 @@
+# Set line ending behavior.
+# Default settting
+* text=auto
+#
+
+# Explicitly declare file type settings
+*.html text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+#
+
+# Call out truly binary files
+*.png binary
+*.jpg binary
