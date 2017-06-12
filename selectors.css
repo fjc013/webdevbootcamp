@@ -1,0 +1,50 @@
+/* A css file about often used selectors */
+
+/* the star selctor - pertains to everything on the page */
+* {
+	border: 1px solid lightgrey;
+}
+/*
+The Descendent selector
+	pertains to elementss nested within another element
+	e.g. anchors within li 
+*/
+li a {
+	color: red;
+}
+/*
+The Adjacent selector
+	Deals with elements that follow other elements
+	e.g., uls that follow h4s
+*/
+h4 + ul {
+	border: 4px solid red;
+}
+/*
+The Attribute selector
+	Pertains to elements which have a particular value
+	within their attributes
+	e.g. Turn achnors with hrefs to Google blue
+*/
+a[href="http://www.google.com"] {
+	background: blue;
+}
+/* Good use case: use with input element */
+input[type="checkbox"] {
+	background: blue;
+}
+input[type="text"] {
+	color: green;
+}
+/*
+The nth of type selector
+	Style the nth instance of the specified element
+	e.g., Set the background of the 3rd li within every list to be purple
+*/
+li:nth-of-type(3) {
+	background: purple;
+}
+/* Now, every other li */
+li:nth-of-type(even) {
+	background: purple;
+}

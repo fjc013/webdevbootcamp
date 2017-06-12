@@ -20,6 +20,9 @@ li {
 	line-height: 1.5em;
 	padding: 0.5em 0;
 }
+.lineThrough {
+	text-decoration: line-through;
+}
 html {
 	background: #daede2;
 	padding: 5%;
@@ -35,3 +38,9 @@ body {
 .hFonts {
 	font-weight: 200;
 }
+/* Selectors that begin with '#' are paired with 
+	html "id=" - may only appear on a page one time
+#name {
+	property: value;
+}
+*/
