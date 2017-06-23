@@ -3,22 +3,28 @@ p {
 /*Content - Width and Height*/
 
 width: 50%;
+
 /*Border*/
 
-border: 2px solid blue;
+border: .15em solid blue;
 
 /*Padding*/
 
-/*padding: 10px;*/
-padding-left: 40px;
+/*padding: 10px; - Space between element and border */
+padding-left: 2em;
+padding-right: 2em;
 
 /*Margin*/
 /*margin: 100px;*/
 /*margin-top: 500px;*/
 /*margin: 20px 40px 500px 100px;*/
 /*margin: 0 auto 0 auto;*/
-margin: 0 auto;
-margin: 50px 20px;
+/*margin: 0 auto;*/
+/* Specifying all margin values: order is Top, Right, Bottom, Left*/
+/*margin: 50px 20px;*/
+margin: 0 2em;
+/*Practice Font-family*/
+font-family: 'Raleway', sans-serif;
 }
 
 
