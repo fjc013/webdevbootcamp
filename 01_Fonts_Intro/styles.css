@@ -1,27 +1,37 @@
-/*font-family*/
-
+/* font-family*/
 p {
-	font-family: Arial;
+	font-family: "Arial";
 }
 
 h1 {
-	font-family: Georgia;
+	font-family: "Georgia";
 }
-
-/*font-size*/
-
+/*Set parent of root font size on body
+	use "em" values for all others
+	em is a relative value property
+	initial value will be body in this case
+	all other selector fonts will be relative 
+	to their apprporiate parent
+*/
 body {
 	font-size: 10px;
 }
-
+/* font-size*/
 h1 {
 	font-size: 5.0em;
 }
-
 p {
 	font-size: 2.0em;
 }
-
 span {
 	font-size: 2.0em;
 }
+
+/*font-weight*/
+
+/*line-height*/
+
+/*text-align*/
+
+/*text-decoration*/
+

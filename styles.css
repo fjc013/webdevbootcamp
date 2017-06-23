@@ -3,9 +3,13 @@ p {
 	font-family: "Arial";
 }
 
-h1 {font-family: "Georgia";
+h1 {
+	font-family: "Georgia";
 }
 /* font-size*/
+h1 {
+	font-size: 200px;
+}
 
 /*font-weight*/
 
