@@ -1,0 +1,33 @@
+
+h1 {
+	/*width: 50%;
+	margin: 0 auto;*/
+	/*border: .1em solid black;*/
+	text-align: center;
+}
+table {
+	/*width: 50%;*/
+	margin: auto;
+}
+.border-right {
+	border-right: 2px solid black;
+}
+.border-bottom {
+	border-bottom: 2px solid black;
+}
+.cell {
+	/*margin: 3em 3em;*/
+	width: 10em;
+	height: 10em;
+}
+body {
+		font-family: 'Indie Flower', sans-serif;
+}
+.vertical {
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+.horizontal {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}

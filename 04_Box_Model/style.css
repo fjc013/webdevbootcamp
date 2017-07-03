@@ -22,7 +22,8 @@ padding-right: 2em;
 /*margin: 0 auto;*/
 /* Specifying all margin values: order is Top, Right, Bottom, Left*/
 /*margin: 50px 20px;*/
-margin: 0 2em;
+/*margin: 0 2em;*/
+margin: 2em auto;
 /*Practice Font-family*/
 font-family: 'Raleway', sans-serif;
 }
