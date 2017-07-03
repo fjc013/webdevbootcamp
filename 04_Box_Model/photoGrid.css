@@ -1,1 +1,19 @@
 /* Styling for Photo Grid project*/
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+p {
+	width: 30%;
+	margin-left: 1.66%;
+	border-bottom: 2px solid #f1f1f1;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+}
+body {
+		font-family: 'Indie Flower', sans-serif;
+}
