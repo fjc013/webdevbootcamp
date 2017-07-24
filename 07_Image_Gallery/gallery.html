@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>My Image Gallery</title>
+	<!-- Bootstrap CDN link -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
 </head>
 <body>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -15,7 +17,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-			<a href="#" class="navbar-brand">Robot Wash</a>
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Bot Wash Images</a>
 		</div>
 		 	<div class="collapse navbar-collapse" id="bs-nav-demo">
 				<ul class="nav navbar-nav">
@@ -31,17 +33,64 @@
 </nav>
 <div class="container">
 	<div class="jumbotron">
-		<h1>The Image Gallery</h1>
+		<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
 		<p>A bunch of images I didn't create</p>
 	</div>
+	<div class="row flex">
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/random/800x600">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/tPKQwYHy8q4">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/pSjwUXBMnlc">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/t3dPPL9016E">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/bb6VgZv-AaA">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/oLPo2Rt4mzs">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/icyZmdkCGZ0">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/cmKPOUgdmWc">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/PC_lbSSxCZE">
+			</div>
+		</div>
+	</div>
 </div>
-<!-- Latest JQuery is required  -->
+<!-- Bootstrap - Latest JQuery is required  -->
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous">
  </script>
-<!-- Latest compiled and minified JavaScript -->
+<!-- Bootstrap - Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
 </body>
