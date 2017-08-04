@@ -6,7 +6,7 @@ function bouncerTest(age) {
 	if (age < 0) {
 		alert("Be serious...");
 	}
-	else if (age == 21) {
+	else if (age === 21) {
 		console.log("Happy 21st birthday!!");
 	}
 	else if (age % 2 > 0) {
@@ -28,6 +28,6 @@ function bouncerTest(age) {
 	}
 }
 
-var age = prompt("Let me see some ID");
+var age = Number(prompt("Let me see some ID"));
 
 bouncerTest(age);
